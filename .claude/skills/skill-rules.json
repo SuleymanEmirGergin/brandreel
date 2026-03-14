@@ -1,0 +1,33 @@
+{
+  "frontend-design-architect": {
+    "type": "domain",
+    "enforcement": "suggest",
+    "priority": "high",
+    "promptTriggers": {
+      "keywords": [
+        "frontend design",
+        "ui design",
+        "redesign",
+        "landing page",
+        "style extraction",
+        "ui audit",
+        "modernize ui",
+        "dashboard design",
+        "mobile design"
+      ],
+      "intentPatterns": [
+        "(create|design|build|modernize|redesign).*(ui|interface|landing|page|dashboard|app|component)",
+        "extract.*style",
+        "look.*like.*this.*(site|app|link|screenshot)"
+      ]
+    },
+    "filePathTriggers": [
+      "**/components/**",
+      "**/pages/**",
+      "**/app/**",
+      "**/styles/**",
+      "tailwind.config.*",
+      "**/ui/**"
+    ]
+  }
+}
