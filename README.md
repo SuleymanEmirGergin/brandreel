@@ -38,7 +38,7 @@ URL'ni yapıştır, marka DNA'nı okusun, fabrika gibi reel üretsin. Wiro AI il
 
 ```bash
 # Repoyu klonla
-git clone https://github.com/KULLANICI_ADIN/brandreel.git
+git clone https://github.com/SuleymanEmirGergin/brandreel.git
 cd brandreel
 
 # Bağımlılıkları yükle
